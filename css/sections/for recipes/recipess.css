@@ -1,0 +1,31 @@
+.body{
+    background-color: var(--veryDarkBlue-color);
+}
+
+
+section{
+    width: 100px;
+    height: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.title{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

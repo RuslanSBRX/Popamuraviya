@@ -1,0 +1,97 @@
+a{
+    text-decoration: none;
+}
+body{
+    background-color: var(--veryDarkBlue-color);
+}
+.hero-block{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header__link{
+    color: white;
+    text-decoration: none;
+    font-family: 'Pacifico';
+    font-weight: lighter;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--darkBlue-color);
+    font-size: larger;
+}
+header{
+    background-color: var(--darkBlue-color);
+    width: var(--fixed-width);
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header__linksBlock{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header__text{
+    transform: translateY(-5px);
+    color: white;
+    font-family: 'Pacifico';
+    font-weight: lighter;
+}
+.hero__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: var(--br-const);
+    border-bottom-right-radius: var(--br-const);
+}
+.hero__pictureBlock{
+    position: absolute;
+}
+.hero__block{
+    width: var(--fixed-width);
+    height: 75vh;
+    border-bottom-left-radius: var(--br-const);
+    border-bottom-right-radius: var(--br-const);
+}
+.hero__textBlock{
+    background: linear-gradient(
+        to bottom, var(--darkBlue-color), #0e1345cf,
+        #0e134583
+        );
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero__text{
+    color: white;
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hero__paragraf{
+    font-size: 2em;
+}
+.hero__button{
+    margin-top: 45px;
+    width: 5.5em;
+    height: 2.5em;
+    background-color: rgb(189, 154, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: 2px solid rgb(133, 108, 0);
+    position: relative;
+    transition: 0.5s;
+    overflow: hidden;
+}
